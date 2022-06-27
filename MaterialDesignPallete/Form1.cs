@@ -20,6 +20,9 @@ namespace MaterialDesignPallete
         {
             InitializeComponent();
 
+            this.Width = 700;
+            this.Height = 480;
+
             FormMover.AddMover(this, this);
             FormMover.AddMover(this, pnlTitleBar);
             FormMover.AddMover(this, lblTitle1);

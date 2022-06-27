@@ -108,7 +108,6 @@
             this.pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlTable.AutoSize = true;
             this.pnlTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(67)))));
             this.pnlTable.Location = new System.Drawing.Point(12, 54);
             this.pnlTable.Name = "pnlTable";
@@ -119,7 +118,6 @@
             // 
             this.pnlSubColors.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlSubColors.AutoSize = true;
             this.pnlSubColors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(67)))));
             this.pnlSubColors.Location = new System.Drawing.Point(530, 54);
             this.pnlSubColors.Name = "pnlSubColors";
@@ -145,7 +143,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbClose)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
