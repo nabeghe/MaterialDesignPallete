@@ -11,6 +11,23 @@
     <FileVersion>1.0</FileVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageTags>Material; Material Design; Pallete; Material Design Pallete</PackageTags>
+    <StartupObject>MaterialDesignPallete.Program</StartupObject>
+    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <Description>Material Design Pallete (https://github.com/nabeghe/MaterialDesignPallete)</Description>
+    <Copyright>https://github.com/nabeghe/MaterialDesignPallete</Copyright>
+    <PackageProjectUrl>https://github.com/nabeghe/MaterialDesignPallete</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nabeghe/MaterialDesignPallete</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
 
   <ItemGroup>
