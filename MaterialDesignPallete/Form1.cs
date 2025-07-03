@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MaterialDesignPallete
 {
     public partial class Form1 : Form
     {
-        private const string THIRD_BUTTON_TEXT = "Verison 1.0\nby\nFuLLKade.IR";
+        private const string THIRD_BUTTON_TEXT = "Verison 1.1\nby\nElaTeL.IR";
         private const string COPIED_MESSAGE = "Copied!";
         private const int COPIED_INTERVAL = 300;
 
